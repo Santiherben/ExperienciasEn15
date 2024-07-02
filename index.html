@@ -24,14 +24,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 20px; /* Add space between card and button */
-            position: relative; /* Ensure button can be placed absolutely */
+            margin-bottom: 20px; 
+            position: relative; 
         }
         .card {
-            width: 90vw; /* Use 90% of the viewport width */
-            max-width: 300px; /* Limit the maximum width */
-            height: calc(90vw * 16 / 9); /* Maintain aspect ratio 16:9 */
-            max-height: 533px; /* Limit the maximum height */
+            width: 90vw; 
+            max-width: 300px;
+            height: calc(90vw * 16 / 9); 
+            max-height: 533px; 
             perspective: 1000px;
         }
         .card-inner {
@@ -52,7 +52,7 @@
             background-position: center;
         }
         .card-front {
-            background-image: url('2.jpg');
+            background-image: url('2.png');
             transform: rotateY(0deg) translateZ(150px);
         }
         .card-middle {
@@ -60,7 +60,7 @@
             transform: rotateY(120deg) translateZ(150px);
         }
         .card-back {
-            background-image: url('4.jpg');
+            background-image: url('4.png');
             transform: rotateY(240deg) translateZ(150px);
         }
         .button-container {
